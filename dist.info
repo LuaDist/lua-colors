@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "colors"
+version = "8.05.26"
+
+desc = "HSL Color Theory Computation in Lua"
+author = "Yuri Takhteyev"
+license = "MIT/X"
+url = "http://sputnik.freewisdom.org/lib/colors"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1"
+}
