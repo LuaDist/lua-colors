@@ -1,6 +1,6 @@
 --- This file is part of LuaDist project
 
-name = "colors"
+name = "lua-colors"
 version = "8.05.26"
 
 desc = "HSL Color Theory Computation in Lua"
