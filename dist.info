@@ -1,0 +1,30 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Yuri Takhteyev"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "HSL Color Theory Computation in Lua"
+version = "8.05.26"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/lua/colors.lua]],
+}
+,
+Documentation = {
+[[share/lua-colors/doc/howto.md]],
+[[share/lua-colors/doc/colors.png]],
+}
+,
+Data = {
+[[share/lua-colors/LICENSE.txt]],
+[[share/lua-colors/README.txt]],
+}
+,
+}
+
+license = "MIT/X"
+name = "lua-colors"
+url = "http://sputnik.freewisdom.org/lib/colors"
